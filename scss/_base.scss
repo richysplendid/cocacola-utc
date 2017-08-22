@@ -15,12 +15,13 @@ a:hover{ text-decoration:none; }
 .zero_margin{ margin-left:0 !important; margin-right:0 !important; }
 .spacer{ padding:40px 0; }
 
-.cc_country_select{ width:150px; height:auto; overflow:hidden; position:fixed; z-index:5; top:5px; left:5px; }
+.cc_country_select{ width:200px; height:auto; overflow:hidden; position:fixed; z-index:5; top:5px; left:5px; }
 /*.cc_country_select select{ background:transparent; position:absolute; top:9px; left:10px; width:180px; border:none; outline:none; }*/
 .cc_current_country{ width:150px; height:36px; overflow:hidden; position:relative; z-index:2; top:0; left:0; background:$reddarkest url(../images/cc_icon_select_white.png) no-repeat 90% 50% ; color:$white; border-radius:30px; -webkit-border-radius:30px; -moz-border-radius:30px; -o-border-radius:30px; padding:10px; font-size:12px; cursor:pointer; }
 ul.cc_listed_countries{ position:relative; z-index:1; top:-30px; padding:40px 10px 10px 10px; list-style-type:none; background:rgba(111,19,32,0.9); border-radius:10px; width:100%; height:auto; color:$white; display:none; cursor:pointer; }
 ul.cc_listed_countries li{ display:block; width:100%; height:auto; overflow:hidden; padding:2px 0; }
 ul.cc_listed_countries li a{ color:$white; display:block; font-size:12px; }
+.cc_correct_country_prompt{ color:$white; font-size:11px; display:block; }
 
 .cc_homepage_bg{ background: url(../images/cc_homepage_bg.png) no-repeat top left fixed #6a0000; }
 .cc_homepage_artist{ position:fixed; z-index:1; top:0; bottom:0; right:0; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-position:top right; background-repeat:no-repeat; width:auto; height:100%; }
@@ -29,7 +30,7 @@ ul.cc_listed_countries li a{ color:$white; display:block; font-size:12px; }
 .cc_homepage_content{ position:fixed; bottom:0; right:0; left:0; box-sizing: border-box; width: 100%; height: auto; padding: 3px; background-image:url(../images/cc_home_txt_bg.png); background-size:100% 100%; -webkit-background-size:100% 100%; -moz-background-size:100% 100%; background-repeat:no-repeat; color:#ffffff; padding:40px 0 70px 10px; font-family:$gothammedium; }
 .cc_homepage_content p{ font-size:15px; width:92%; margin:5px 0; }
 
-.cc_btn_white{ background-color:$white; border:2px solid $white; color:$reddark; font-size:18px; border-radius:30px; -webkit-border-radius:30px; -moz-border-radius:30px; -o-border-radius:30px; padding:10px 30px; margin-top:10px; transition:all 0.5s ease; font-family:$gothambold; }
+.cc_btn_white{ background-color:$white; border:2px solid $white; color:$reddark; font-size:16px; border-radius:30px; -webkit-border-radius:30px; -moz-border-radius:30px; -o-border-radius:30px; padding:10px 30px; margin-top:10px; transition:all 0.5s ease; font-family:$gothambold; }
 .cc_btn_white:hover{ background-color:$reddark; color:$white; }
 
 .cc_main_banner{ width:100%; height:150px; background:$reddark url(../images/cc_main_banner_bg.png) no-repeat; background-position:center center; position:relative; z-index:1; }
@@ -60,7 +61,8 @@ ul.cc_listed_countries li a{ color:$white; display:block; font-size:12px; }
 .cc_form_container .col-lg-4{ width:80px; margin-right:5%; display:block; float:left; }
 .cc_form_select_container{ width:106%; height:34px; position:relative; background:$greylight url(../images/cc_icon_select_grey.png) no-repeat 80% 50% ; border:none; border-radius:30px; -webkit-border-radius:30px; -moz-border-radius:30px; -o-border-radius:30px; overflow:hidden; }
 .cc_form_select_container select{ background:transparent; width:130%; position:absolute; top:0; left:0; border:none; outline:none; top:8px; left:5px; }
-.cc_error_msg{ color:$redlight; margin-top:10px; }
+.cc_form_label{ margin-top:20px; }
+.cc_error_msg{ color:$redlight; margin-top:10px; font-family:$gothambook; }
 .cc_form_container a{ text-decoration:underline; }
 
 .cc_form_radio_container{ display:block; padding-bottom:15px; padding-top:10px; }
@@ -153,6 +155,11 @@ ul.cc_listed_countries li a{ color:$white; display:block; font-size:12px; }
 
 .cc_listed_playlist h1, .cc_listed_playlist .cc_artist_name{ color:#605d60; margin:0; }
 .cc_listed_playlist p, .cc_listed_playlist .cc_artist_more_details{ color:#acaaac; margin:0; }
+
+.cc_caution_error{ width:150px; height:150px; background:url(../images/cc_icon_caution.png) no-repeat; display:block; margin:10px auto 0px; }
+.cc_error_content{ text-align:center; padding:10px 0; display:block; }
+.cc_error_content h3{ font-family:$gothambold; font-size:20px; }
+.cc_error_content p{ font-family:$gothambook; font-size:18px; }
 
 footer{ background:url(../images/cc_footer_bg.png) no-repeat; background-size:100% 100%; width:100%; min-height:40px; height:auto; padding:30px 0 20px; text-align:center; font-size:9px; color:#000000; }
 footer.fixed{ position:fixed; z-index:3; bottom:0; left:0; right:0; }
