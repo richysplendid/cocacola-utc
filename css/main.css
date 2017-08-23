@@ -280,12 +280,12 @@ ul.cc_listed_countries li a {
   color: #73121e; }
 
 .cc_home {
-  left: 10px;
+  left: 2.05%;
   background-image: url(../images/cc_icon_home.png);
   background-position: center center; }
 
 .cc_back {
-  right: 10px;
+  right: 2.05%;
   font-size: 10px;
   line-height: 3.8em; }
 
@@ -405,10 +405,15 @@ ul.cc_listed_countries li a {
   position: relative;
   font-family: "../fonts/GothamRounded-Medium"; }
 
+.cc_prizes_container h1 {
+  text-align: center; }
+
 .cc_prizes_container a {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  overflow: hidden; }
+  overflow: hidden;
+  display: block;
+  width: 270px; }
 
 .cc_prizes_main_cat {
   width: 270px;

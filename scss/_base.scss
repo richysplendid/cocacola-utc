@@ -40,8 +40,8 @@ ul.cc_listed_countries li a{ color:$white; display:block; font-size:12px; }
 .cc_main_banner_curve_mid{ background:url(../images/cc_main_banner_curve.png) no-repeat;  width:97%; position:relative; z-index:1; left:1.5%; right:1.5%; height:104px; display:block; float:left; background-size:100% 100%; -webkit-background-size:100% 100%; -moz-background-size:100% 100%; }
 
 .cc_header_nav{ background-color:$white; background-repeat:no-repeat; color:$reddark; width:41px; height:39px; position:absolute; top:25%; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; -o-border-radius:5px; text-align:center; cursor:pointer; display:block; overflow:hidden; padding:0; margin:0; color:$reddark; }
-.cc_home{ left:10px; background-image:url(../images/cc_icon_home.png); background-position:center center; }
-.cc_back{ right:10px; font-size:10px; line-height:3.8em; }
+.cc_home{ left:2.05%; background-image:url(../images/cc_icon_home.png); background-position:center center; }
+.cc_back{ right:2.05%; font-size:10px; line-height:3.8em; }
 .cc_header_nav:hover{ color:$reddark; }
 
 .cc_main_content{ position:relative; z-index:2; width:auto; height:auto; overflow:hidden; display:block; margin-top:-20px; font-family:$gothambook; }
@@ -68,7 +68,8 @@ ul.cc_listed_countries li a{ color:$white; display:block; font-size:12px; }
 .cc_form_radio_container{ display:block; padding-bottom:15px; padding-top:10px; }
 
 .cc_prizes_container{ display:block; width:100%;  height:auto; overflow:hidden; position:relative; font-family:$gothammedium; }
-.cc_prizes_container a{ margin:0; padding:0; overflow:hidden; }
+.cc_prizes_container h1{ text-align:center; }
+.cc_prizes_container a{ margin:0 auto; padding:0; overflow:hidden; display:block; width:270px; }
 .cc_prizes_main_cat{ width:270px; height:140px; margin:0 auto 20px; position:relative; overflow:hidden; background:$reddarkest; border-radius:15px; -webkit-border-radius:15px; -moz-border-radius:15px; -o-border-radius:15px; border:none; outline:none; display:block; }
 .cc_prizes_main_cat:hover .cc_prizes_main_cat_txt{ color:$redlight; }
 .cc_clip_cat{ position:absolute; z-index:9; bottom:0px; right:0px; background:url(../images/cc_cat_clip.png) no-repeat; width:30px; height:30px; }
