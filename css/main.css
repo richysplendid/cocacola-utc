@@ -875,6 +875,12 @@ ul.cc_listed_countries li a {
   text-align: center;
   font-size: 18px; }
 
+.cc_behind_the_scenes_wrapper a {
+  color: #fff; }
+
+.cc_behind_the_scenes_wrapper a:hover {
+  text-decoration: none; }
+
 .cc_behind_scenes_single_article {
   width: 260px;
   height: 135px;
@@ -901,7 +907,8 @@ ul.cc_listed_countries li a {
   width: 50%;
   padding: 15px;
   background: rgba(72, 6, 27, 0.7);
-  font-size: 15px; }
+  font-size: 15px;
+  color: #fff; }
 
 .cc_btn_red {
   background-color: #e10013;
