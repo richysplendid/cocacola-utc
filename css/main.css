@@ -110,7 +110,7 @@ ul.cc_listed_countries {
   list-style-type: none;
   background: rgba(111, 19, 32, 0.9);
   border-radius: 10px;
-  width: 100%;
+  width: 75%;
   height: auto;
   color: #ffffff;
   display: none;
@@ -121,7 +121,9 @@ ul.cc_listed_countries li {
   width: 100%;
   height: auto;
   overflow: hidden;
-  padding: 2px 0; }
+  padding: 2px 0;
+  font-size: 12px;
+  font-weight: normal; }
 
 ul.cc_listed_countries li a {
   color: #ffffff;
@@ -132,6 +134,30 @@ ul.cc_listed_countries li a {
   color: #ffffff;
   font-size: 11px;
   display: block; }
+
+.cc_country_dropdown {
+  width: 150px;
+  height: 36px;
+  overflow: hidden;
+  position: relative;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  background: #390000 url(../images/cc_icon_select_white.png) no-repeat 90% 50%;
+  border-radius: 10px;
+  padding: 0; }
+
+.cc_country_dropdown select {
+  background: none;
+  border: none;
+  width: 170px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  color: #ffffff;
+  outline: none;
+  font-size: 12px;
+  font-weight: normal; }
 
 .cc_homepage_bg {
   background: url(../images/cc_homepage_bg.png) no-repeat top left fixed #6a0000; }

@@ -11,6 +11,11 @@ $(document).ready(function(){
 	$('.cc_current_country').click(function(){
 		$('ul.cc_listed_countries').slideToggle();
 	});	
+	$('.cc_listed_countries li').click(function(){
+		var countryName =  jQuery(this).html();
+		$('.cc_current_country').html(countryName);
+		$('.cc_listed_countries').slideToggle()
+	});	
 	
 	/*$('.cc_ringtone_download').on('click', function(){
 		location.href = "ringback_tones_thank_you.html"

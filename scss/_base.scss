@@ -18,10 +18,13 @@ a:hover{ text-decoration:none; }
 .cc_country_select{ width:200px; height:auto; overflow:hidden; position:fixed; z-index:5; top:5px; left:5px; }
 /*.cc_country_select select{ background:transparent; position:absolute; top:9px; left:10px; width:180px; border:none; outline:none; }*/
 .cc_current_country{ width:150px; height:36px; overflow:hidden; position:relative; z-index:2; top:0; left:0; background:$reddarkest url(../images/cc_icon_select_white.png) no-repeat 90% 50% ; color:$white; border-radius:30px; -webkit-border-radius:30px; -moz-border-radius:30px; -o-border-radius:30px; padding:10px; font-size:12px; cursor:pointer; }
-ul.cc_listed_countries{ position:relative; z-index:1; top:-30px; padding:40px 10px 10px 10px; list-style-type:none; background:rgba(111,19,32,0.9); border-radius:10px; width:100%; height:auto; color:$white; display:none; cursor:pointer; }
-ul.cc_listed_countries li{ display:block; width:100%; height:auto; overflow:hidden; padding:2px 0; }
+ul.cc_listed_countries{ position:relative; z-index:1; top:-30px; padding:40px 10px 10px 10px; list-style-type:none; background:rgba(111,19,32,0.9); border-radius:10px; width:75%; height:auto; color:$white; display:none; cursor:pointer; }
+ul.cc_listed_countries li{ display:block; width:100%; height:auto; overflow:hidden; padding:2px 0; font-size:12px; font-weight:normal; }
 ul.cc_listed_countries li a{ color:$white; display:block; font-size:12px; }
 .cc_correct_country_prompt{ color:$white; font-size:11px; display:block; }
+
+.cc_country_dropdown{ width:150px; height:36px; overflow:hidden; position:relative; z-index:5; top:0; left:0; background:$reddarkest url(../images/cc_icon_select_white.png) no-repeat 90% 50% ; border-radius:10px; padding:0; }
+.cc_country_dropdown select{ background:none; border:none; width:170px; position:relative; top:10px; left:10px; color:$white; outline:none; font-size:12px; font-weight:normal; }
 
 .cc_homepage_bg{ background: url(../images/cc_homepage_bg.png) no-repeat top left fixed #6a0000; }
 .cc_homepage_artist{ position:fixed; z-index:1; top:0; bottom:0; right:0; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-position:top right; background-repeat:no-repeat; width:auto; height:100%; }
