@@ -83,7 +83,6 @@ a:hover {
   top: 5px;
   left: 5px; }
 
-/*.cc_country_select select{ background:transparent; position:absolute; top:9px; left:10px; width:180px; border:none; outline:none; }*/
 .cc_current_country {
   width: 150px;
   height: 36px;
@@ -157,7 +156,8 @@ ul.cc_listed_countries li a {
   color: #ffffff;
   outline: none;
   font-size: 12px;
-  font-weight: normal; }
+  font-weight: normal;
+  line-height: normal; }
 
 .cc_homepage_bg {
   background: url(../images/cc_homepage_bg.png) no-repeat top left fixed #6a0000; }
