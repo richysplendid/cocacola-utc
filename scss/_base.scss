@@ -79,13 +79,13 @@ ul.cc_listed_countries li a{ color:$white; display:block; font-size:12px; }
 .cc_prizes_main_cat_txt{  width:100%; height:100%; position:relative; top:30%; z-index:2; color:#fff; display:block; margin:0 auto; width:80%; font-size:30px; text-align:center; line-height:1em; }
 
 .cc_items_container{ display:block; width:100%; height:auto; overflow:hidden; }
-.cc_single_item{ width:120px; height:120px; position:relative; overflow:hidden; background:#7a0b2e; margin:2% 1% 3% 3%; display:block; float:left; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; -o-border-radius:5px; }
+.cc_single_item{ width:120px; height:230px; position:relative; overflow:hidden; margin:2% 1% 3% 3%; display:block; float:left; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; -o-border-radius:5px; }
 
-.cc_single_item_img{ position:absolute; z-index:1; top:0; left:0; right:0; bottom:0; background-repeat:no-repeat; background-size:cover; -moz-background-size:cover; -webkit-background-size:cover; -o-background-size:cover; background-position:center center; }
+.cc_single_item_img{ width:120px; height:120px !important; position:relative; overflow:hidden; z-index:1; background-repeat:no-repeat; background-size:cover; -moz-background-size:cover; -webkit-background-size:cover; -o-background-size:cover; background-position:center center; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; -o-border-radius:5px; }
 .cc_single_item_overlay{ position:absolute; z-index:2; top:0; left:0; right:0; bottom:0; background-repeat:no-repeat; background-size:cover; -moz-background-size:cover; -webkit-background-size:cover; -o-background-size:cover; background-position:center center; background-image:url(../images/cc_items_overlay.png); }
-.cc_single_item_txt{ position:relative; z-index:3; top:10px; left:8%; right:8%; display:block; color:$white; }
-.cc_single_item_txt h1, .cc_artist_name{ font-size:13px; text-transform:capitalize; font-family:$gothammedium; }
-.cc_single_item_txt p, .cc_artist_more_details{ font-size:10px; text-transform:capitalize; font-family:$gothammedium; }
+.cc_single_item_txt{ position:relative; z-index:3; top:0; left:0; right:0; display:block; color:#605d60; width:100%; height:auto; padding-top:10px; }
+.cc_single_item_txt h1, .cc_artist_name{ font-size:13px; text-transform:capitalize; font-family:$gothammedium; width:80%; overflow:hidden; display:block; }
+.cc_single_item_txt p, .cc_artist_more_details{ font-size:10px; text-transform:capitalize; font-family:$gothammedium; display:block; }
 .cc_icon_download{ position:absolute; z-index:4; bottom:10px; right:10px; width:30px; height:30px; background:rgba(0,0,0,0.8) no-repeat center center url(../images/cc_icon_download.png); border-radius:50px; -webkit-border-radius:50px; -moz-border-radius:50px; -o-border-radius:50px; cursor:pointer; }
 .cc_icon_play{ position:absolute; z-index:4; bottom:10px; right:10px; width:30px; height:30px; background:rgba(0,0,0,0.8) no-repeat center center url(../images/cc_icon_play.png); border-radius:50px; -webkit-border-radius:50px; -moz-border-radius:50px; -o-border-radius:50px; cursor:pointer; }
 

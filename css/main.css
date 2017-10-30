@@ -505,10 +505,9 @@ ul.cc_listed_countries li a {
 
 .cc_single_item {
   width: 120px;
-  height: 120px;
+  height: 230px;
   position: relative;
   overflow: hidden;
-  background: #7a0b2e;
   margin: 2% 1% 3% 3%;
   display: block;
   float: left;
@@ -518,18 +517,21 @@ ul.cc_listed_countries li a {
   -o-border-radius: 5px; }
 
 .cc_single_item_img {
-  position: absolute;
+  width: 120px;
+  height: 120px !important;
+  position: relative;
+  overflow: hidden;
   z-index: 1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   background-repeat: no-repeat;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px; }
 
 .cc_single_item_overlay {
   position: absolute;
@@ -549,21 +551,28 @@ ul.cc_listed_countries li a {
 .cc_single_item_txt {
   position: relative;
   z-index: 3;
-  top: 10px;
-  left: 8%;
-  right: 8%;
+  top: 0;
+  left: 0;
+  right: 0;
   display: block;
-  color: #ffffff; }
+  color: #605d60;
+  width: 100%;
+  height: auto;
+  padding-top: 10px; }
 
 .cc_single_item_txt h1, .cc_artist_name {
   font-size: 13px;
   text-transform: capitalize;
-  font-family: "../fonts/GothamRounded-Medium"; }
+  font-family: "../fonts/GothamRounded-Medium";
+  width: 80%;
+  overflow: hidden;
+  display: block; }
 
 .cc_single_item_txt p, .cc_artist_more_details {
   font-size: 10px;
   text-transform: capitalize;
-  font-family: "../fonts/GothamRounded-Medium"; }
+  font-family: "../fonts/GothamRounded-Medium";
+  display: block; }
 
 .cc_icon_download {
   position: absolute;
